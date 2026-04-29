@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "my-first-project",
+=======
+  "name": "component-props",
+>>>>>>> 90cda7723de422631fae63e44420a4ca69b5e6bd
   "private": true,
   "version": "0.0.0",
   "type": "module",
