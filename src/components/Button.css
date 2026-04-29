@@ -1,0 +1,14 @@
+button{
+    text-align: center;
+    background-color: rgb(231, 180, 236);
+    width:auto;
+    hight:10px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+
+}
