@@ -1,0 +1,125 @@
+/* SECTION WRAPPER */
+.maincharacters-section {
+  padding: 60px 20px;
+  background: #f8f9fc;
+  min-height: 100vh;
+}
+
+/* TITLE */
+.maincharacters-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+/* GRID LAYOUT */
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .characters-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .characters-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CARD WRAPPER */
+.character-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HOVER EFFECT */
+.character-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+/* IMAGE SECTION */
+.character-img {
+  width: 100%;
+  height: 200px;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.character-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+/* IMAGE HOVER ZOOM */
+.character-card:hover .character-img img {
+  transform: scale(1.08);
+}
+
+/* BODY */
+.character-body {
+  padding: 15px;
+  text-align: center;
+}
+
+/* NAME */
+.character-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* ROLE */
+.character-role {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+/* TRAITS CONTAINER */
+.character-traits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* BADGES */
+.trait-badge {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+/* BADGE HOVER */
+.trait-badge:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
