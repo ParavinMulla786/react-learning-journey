@@ -60,6 +60,14 @@ function MovieList() {
             </Link>
 
             <span>{renderStars(movie.rating)}</span>
+
+
+            <button
+        className="btn btn-primary mb-3"
+        onClick={() => navigate("/update")}
+      >
+        Update
+      </button>
           </li>
         ))}
       </ul>
