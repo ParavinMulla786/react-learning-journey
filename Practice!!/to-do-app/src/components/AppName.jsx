@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Appmname = () => {
+
+const AppName = () => {
   return (
     <h1>TO-DO APP</h1>
   )
 }
 
-export default Appmname
+export default AppName

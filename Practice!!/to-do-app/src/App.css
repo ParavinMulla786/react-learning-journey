@@ -1,0 +1,21 @@
+h1{
+    color: rgb(23, 23, 185);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    width:100%;
+}
+.kg-row{
+    margin:10px 5px ;
+}
+
+.kg-button{
+ min-width: 80px;
+}
+
+
