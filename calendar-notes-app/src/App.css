@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f6f8;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Base button style */
+.save-btn,
+.delete-btn,
+.update-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Save button */
+.save-btn {
+  background: #28a745;
+}
+
+/* Delete button */
+.delete-btn {
+  background: #dc3545;
+}
+
+/* Update button */
+.update-btn {
+  background: #007bff;
+}
+
+/* Hover effects */
+.save-btn:hover {
+  background: #218838;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+.update-btn:hover {
+  background: #0069d9;
+}
+
+.note-display {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.note-display h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.note-display p {
+  font-size: 14px;
+  color: #555;
+}
+
+.note-dot {
+  height: 6px;
+  width: 6px;
+  background: red;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 2px;
+}
